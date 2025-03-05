@@ -20,6 +20,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # A/B
 ENABLE_VIRTUAL_AB := true
 
+# zhaoyuenan: add build f2fs-io tool
+PRODUCT_PACKAGES += paper_f2fs_io
+# zhaoyuenan: end build f2fs-io tool
+
 # Boot Control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery \
