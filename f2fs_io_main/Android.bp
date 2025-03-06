@@ -11,5 +11,6 @@ cc_binary {
     srcs: [
         "f2fs_io.c",
     ],
+    product_specific: true,
     recovery_available: true,
 }
